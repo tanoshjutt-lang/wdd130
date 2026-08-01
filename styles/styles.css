@@ -19,6 +19,9 @@ aside img {
 main img {
   width: 150px;
   height: auto;
+  border: 2px solid gray;
+  padding: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 p {
@@ -29,4 +32,31 @@ footer {
   margin-top: 20px;
   border-top: 1px solid #333;
   text-align: center;
+}
+
+nav {
+  background-color: teal;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  padding: 15px;
+  display: block;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+.gallery img {
+  width: 180px;
+  height: auto;
+  border: 2px solid gray;
+  padding: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
